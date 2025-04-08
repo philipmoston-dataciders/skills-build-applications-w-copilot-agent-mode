@@ -11,7 +11,7 @@ def api_root(request, format=None):
         'teams': 'api/teams/',
         'activities': 'api/activities/',
         'leaderboard': 'api/leaderboard/',
-        'workouts': 'api/workouts/'
+        'workouts': 'api/workouts/',
     })
 
 class UserViewSet(viewsets.ModelViewSet):
